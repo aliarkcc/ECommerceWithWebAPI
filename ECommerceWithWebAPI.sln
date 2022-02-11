@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Busines", "Business\Busines.csproj", "{CD02A436-A787-4626-B1B1-AD0593D816BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{CD02A436-A787-4626-B1B1-AD0593D816BC}"
 	ProjectSection(ProjectDependencies) = postProject
 		{EE275DA5-33D6-491B-9ED1-4E4AC14F1EF5} = {EE275DA5-33D6-491B-9ED1-4E4AC14F1EF5}
 	EndProjectSection
