@@ -31,7 +31,7 @@ namespace WebAPI
             });
             services.AddControllers();
             services.AddTransient<IUserDal, EfUserDal>();
-            //services.AddTransient<IUserService, UserManager>();
+            //services.AddSingleton<IUserService, UserManager>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI", Version = "v1" });
