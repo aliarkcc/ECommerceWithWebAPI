@@ -19,7 +19,7 @@ namespace DataAccess.Concrete.Context
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source = ");
+            optionsBuilder.UseSqlServer("Data Source =MEHMETPC\\SQLEXPRESS;Initial Catalog=ECommerceWithWebAPIdb;Integrated Security=True");
         }
     }
 }
